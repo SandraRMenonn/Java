@@ -6,7 +6,7 @@ public class ATMPin {
 	
 
 	public int getPIN() {
-		return PIN;
+	return PIN;
 	}
 
 	public void setPIN(int PINnumber) {
