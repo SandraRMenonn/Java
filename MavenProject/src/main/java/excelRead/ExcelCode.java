@@ -17,7 +17,7 @@ public class ExcelCode {
 	
 	public static String readStringData(int row, int col) throws IOException {
 		
-	f=new FileInputStream("C:\\Users\\sandr\\Downloads\\ExcelRead1.xlsx");
+	f=new FileInputStream("C:\\Users\\sandr\\ExcelRead1.xlsx");
 	w=new XSSFWorkbook(f);
 	sh=w.getSheet("Sheet1");
 	XSSFRow r=sh.getRow(row);
@@ -27,7 +27,7 @@ public class ExcelCode {
 	
 	public static String readIntegerData(int row, int col) throws IOException {
 		
-		f=new FileInputStream("");
+		f=new FileInputStream("C:\\Users\\sandr\\ExcelRead1.xlsx");
 		w=new XSSFWorkbook(f);
 		sh=w.getSheet("Sheet1");
 		XSSFRow r=sh.getRow(row);

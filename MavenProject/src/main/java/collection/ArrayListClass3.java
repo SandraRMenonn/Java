@@ -12,6 +12,11 @@ public class ArrayListClass3 {
 		L4.add(4);
 		L4.add(6);
 		L4.add(8);
+		
+		L4.set(1, 3);
+		System.out.println(L4);
+		
+		System.out.println(L4.get(1));
 					
 		System.out.println("for loop");
 		for(int i=0; i<L4.size();i++) {
@@ -21,6 +26,8 @@ public class ArrayListClass3 {
 		System.out.println("for-each loop");
 		for(int i:L4) { 
 			System.out.println(i); }
+		
+		
 			
 		ArrayList <Character> L5=new ArrayList<Character>();
 		L5.add('a');

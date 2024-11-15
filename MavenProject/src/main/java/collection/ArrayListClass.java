@@ -26,7 +26,7 @@ public class ArrayListClass {
 		System.out.println(L2);
 		
 		
-		//generic arraylist
+		//generic arraylist, Have to specify the datatype. Here only String can be given
 		ArrayList <String> L3=new ArrayList<String>(); //String-non primitive datatype. For primitive datatype should give full name. 
 		System.out.println(L3.isEmpty());
 		L3.add("White");
